@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小李的个人页面</title>
+    <style>
+        body {
+            font-family: 宋体;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .intro {
+            background-color: #e0f0e0;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .intro-text {
+            max-width: 60%;
+        }
+
+        .photo {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            background-image: url('https://randomuser.me/api/portraits/men/1.jpg');
+        }
+
+        .basic-info {
+            background-color: #e0f0e0;
+            padding: 5px 0;
+            margin: 0;
+        }
+
+        .basic-info p {
+            margin: 5px 20px;
+            text-align: left;
+        }
+
+        .description-container {
+            padding: 20px; /* 增加内边距，拉长中间白色部分 */
+            min-height: 200px; /* 设置最小高度，确保有足够空间 */
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        .tags-container {
+            position: absolute;
+            right: 20px;
+            top: 250px;
+            width: 200px;
+        }
+
+        .tag {
+            background-color: #e0f0e0;
+            padding: 5px 10px;
+            margin: 5px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        .updates-section {
+            background-color: #e0f0e0;
+            padding: 20px;
+            position: relative;
+            top: 20px; /* 微微下移，可根据需要调整 */
+        }
+
+        .updates-title {
+            text-align: center;
+            margin: 0 0 15px 0; /* 调整标题的下边距 */
+        }
+
+        .updates {
+            display: flex;
+            justify-content: center;
+        }
+
+        .update-item {
+            text-align: center;
+            margin: 0 10px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">首页</a>
+        <a href="#">我的爱好</a>
+        <a href="#">我的家乡</a>
+        <a href="#">我的学校</a>
+        <a href="#">联系我</a>
+    </div>
+
+    <div class="intro">
+        <div class="intro-text">
+            <h2>你好，我是小李</h2>
+            <p>计算机科学与技术专业大二学生</p>
+            <div class="basic-info">
+                <p>年龄：19 年级：大二</p>
+            </div>
+        </div>
+        <div class="photo"></div>
+    </div>
+
+    <div class="description-container">
+        <p>我是一名大二学生，对生活充满热爱。喜欢在忙碌的学习之余培养自己的兴趣爱好。</p>
+        <p>我相信每个人都有自己独特的闪光点。无论学习还是生活，我都保持积极向上的态度。</p>
+        <p>本网站记录了我的学习生活和兴趣爱好，希望能和大家分享我的成长历程。</p>
+    </div>
+
+    <div class="tags-container">
+        <h3>个人标签</h3>
+        <div>
+            <span class="tag">爱学习</span>
+            <span class="tag">爱生活</span>
+        </div>
+        <div>
+            <span class="tag">有创意</span>
+            <span class="tag">爱分享</span>
+        </div>
+        <div>
+            <span class="tag">积极向上</span>
+            <span class="tag">热爱美食</span>
+        </div>
+    </div>
+
+    <div class="updates-section">
+        <h2 class="updates-title">最新动态</h2>
+        <div class="updates">
+            <div class="update-item">
+                <p>2025.9.22</p>
+                <p>完成作业</p>
+            </div>
+            <div class="update-item">
+                <p>2025.9.20</p>
+                <p>参加活动</p>
+            </div>
+            <div class="update-item">
+                <p>2025.9.16</p>
+                <p>学习新技能</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
