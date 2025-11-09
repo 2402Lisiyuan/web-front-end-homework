@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>尤克里里社2025春季招新</title>
+    <style>
+        .back-to-top {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 5px 10px;
+            background: #f8f9fa;
+            text-decoration: none;
+            color: #333;
+            border-radius: 4px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 85%;
+            margin: 20px auto;
+        }
+        td, th {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f8ff;
+        }
+        .form-table td {
+            text-align: left;
+        }
+        embed {
+            display: block;
+            margin: 30px auto;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin: 40px 0 20px;
+        }
+        .nav {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .nav a {
+            margin: 0 20px;
+            font-size: 18px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .nav a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<!-- 1. 背景音乐（参考ex3_23.html的<audio>写法） -->
+<div style="position: absolute; top: 20px; left: 20px;">
+    <audio src="D:/本科/大二上/web前端技术课程资料/web前端实验/ukulele_music.mp3" autoplay="autoplay" controls="controls" loop="loop">
+        您的浏览器不支持音频播放，请更新浏览器
+    </audio>
+</div>
+
+<!-- 2. 锚点导航（参考ex3_12.html的页内链接写法） -->
+<div class="nav">
+    <a href="#main">回到顶部</a>
+    <a href="#intro">社团简介</a>
+    <a href="#activity">活动安排</a>
+    <a href="#show">风采展示</a>
+    <a href="#story">社员故事</a>
+    <a href="#apply">在线报名</a>
+</div>
+
+<!-- 3. 社团简介（设置name锚点，参考ex3_12.html） -->
+<div id="intro" name="intro" style="width: 80%; margin: 0 auto; line-height: 1.8;">
+    <h2>尤克里里社社团简介</h2>
+    <p>尤克里里社成立于2015年，是学校最具“治愈感”的艺术社团之一，以“用四弦传递快乐，以音乐连接你我”为宗旨，面向全校所有热爱轻音、喜欢弹唱的同学开放。不同于钢琴、小提琴等需要长期积累的乐器，尤克里里凭借“小巧便携、入门简单、音色明快”的特点，成为很多同学“零基础学乐器”的首选——哪怕你从未接触过乐器，只要跟着社团的教学节奏，1个月就能弹唱《小情歌》《Over the Rainbow》等经典曲目。</p>
+    <p>社团现有社员150余人，涵盖大一至研究生各年级，核心团队由10名“资深玩家”组成：其中有蝉联两届校园弹唱大赛冠军的学长，有擅长尤克里里指弹改编的音乐系学姐，还有曾在市级青年音乐汇表演的社员。我们每周固定开展两类活动：周三晚的“基础教学课”（从识谱、按弦、节奏教起，一对一纠正指法），周日下午的“弹唱交流会”（社员轮流上台表演，分享技巧、互提建议）；此外，每月还会组织“户外快闪”“校园市集驻唱”“敬老院公益演出”等特色活动，让社员在实践中感受音乐的魅力。</p>
+    <a href="#main" class="back-to-top">返回顶部</a>
+</div>
+
+<hr style="border: 0; height: 1px; background: #eee; margin: 50px 0;">
+
+<!-- 4. 活动安排（多重表头表格，参考ex3_16.html） -->
+<div id="activity" name="activity" style="width: 80%; margin: 0 auto; line-height: 1.8;">
+    <h2>尤克里里社2025年春季学期活动安排表</h2>
+    <table border="1">
+        <caption><b>尤克里里社2025春季活动安排</b></caption>
+        <tr>
+            <<th rowspan="2">活动名称</th>
+            <<th colspan="2">时间/地点</th>
+            <<th rowspan="2">参与对象</th>
+        </tr>
+        <tr>
+            <<th>时间</th>
+            <<th>地点</th>
+        </tr>
+        <tr>
+            <td>新成员见面会</td>
+            <td>3月8日 19:00</td>
+            <td rowspan="2">学生活动中心203室</td>
+            <td>全体新社员</td>
+        </tr>
+        <tr>
+            <td>基础教学公开课</td>
+            <td>3月15日 19:00</td>
+            <td>全体社员（零基础）</td>
+        </tr>
+        <tr>
+            <td>春日草坪快闪</td>
+            <td>4月13日 14:00</td>
+            <td>东操场草坪</td>
+            <td>全体社员</td>
+        </tr>
+        <tr>
+            <td>指弹技巧workshop</td>
+            <td>5月4日 19:00</td>
+            <td>学生活动中心203室</td>
+            <td>有基础社员</td>
+        </tr>
+        <tr>
+            <td>毕业季弹唱专场</td>
+            <td>6月22日 19:30</td>
+            <td>大礼堂小剧场</td>
+            <td>全体社员+全校师生</td>
+        </tr>
+    </table>
+    <a href="#main" class="back-to-top">返回顶部</a>
+</div>
+
+<hr style="border: 0; height: 1px; background: #eee; margin: 50px 0;">
+
+<!-- 5. 风采展示（图片+超链接，参考ex3_20.html） -->
+<div id="show" name="show" style="width: 80%; margin: 0 auto; line-height: 1.8;">
+    <h2>尤克里里社风采展示</h2>
+    <div style="text-align: center; margin: 30px 0;">
+        <a href="club_intro.html">
+            <img src="D:/本科/大二上/web前端技术课程资料/web前端实验/ukulele_photo.png" alt="尤克里里社日常训练" width="700" border="0">
+        </a>
+        <p>点击图片查看活动详情</p>
+    </div>
+    <a href="#main" class="back-to-top">返回顶部</a>
+</div>
+
+<hr style="border: 0; height: 1px; background: #eee; margin: 50px 0;">
+
+<!-- 6. 活动视频（参考ex3_25.html的<embed>写法） -->
+<div style="width: 80%; margin: 0 auto;">
+    <h2>尤克里里社活动精彩瞬间</h2>
+    <embed src="D:/本科/大二上/web前端技术课程资料/web前端实验/ukulele_video.mp4" width="900" height="500" type="video/mp4" loop="true">
+    <p style="text-align: center; color: #666;">视频为“尤克里里社日常训练”活动片段</p>
+</div>
+
+<hr style="border: 0; height: 1px; background: #eee; margin: 50px 0;">
+
+<!-- 7. 社员故事 -->
+<div id="story" name="story" style="width: 80%; margin: 0 auto; line-height: 1.8;">
+    <h2>社员故事</h2>
+    <p>在校园的某个角落，总有一群人抱着色彩斑斓的尤克里里，指尖跃动间流淌出清泉般的旋律。这里是尤克里里社团，一个由热爱与梦想编织的温暖集体。在这里，每一把琴都承载着独特的故事，每一段旋律都记录着成长的轨迹。让我们走进几位社员的内心世界，感受他们与尤克里里相遇、相知、相伴的动人篇章——或许，这些故事里，也有你的影子。<br>
+
+        一、 从“零基础小白”到“舞台新星”：小夏的蜕变之旅<br>
+        小夏曾是社团里最腼腆的新成员。第一次社团招新时，她抱着“试试看”的心态报名，却在第一次集体练习时紧张得连和弦都按不稳。看着其他社员流畅的弹奏，她甚至怀疑自己是否“没有音乐细胞”。但社团的包容氛围让她坚持了下来：学长学姐手把手纠正她的持琴姿势，同伴们用“没关系，慢慢来”的鼓励化解她的焦虑，而每周的“基础互助小组”更让她找到了练习的节奏。<br>
+
+        三个月后，小夏迎来了人生第一次登台——社团的“夏日音乐快闪”。当她站在人群中央，指尖轻轻拨动琴弦，熟悉的旋律《小幸运》流淌而出时，她突然发现：原来音乐不是遥不可及的星辰，而是触手可及的温暖。如今，小夏已成为社团的“活跃分子”，不仅常在活动中担任主唱，还主动教新成员弹奏基础和弦。她说：“尤克里里教会我，成长不是独自奔跑，而是与一群人携手同行。”<br>
+
+        二、 跨专业社员的“音乐疗愈”：阿杰的治愈系琴声<br>
+        阿杰是计算机专业的学生，每天面对代码的他，曾觉得生活像一台永不停歇的机器。直到加入尤克里里社团，他的世界被彻底点亮。“第一次弹奏《彩虹云朵》时，我仿佛看到了代码之外的天空——原来生活可以如此轻盈。”他说。<br>
+
+        社团的“音乐疗愈工作坊”成了阿杰的“心灵充电站”。在这里，他学会了用音乐表达情绪：压力大时，用快节奏的扫弦释放焦虑；孤独时，用温柔的指弹与自己对话。更让他惊喜的是，社团的跨学科交流让他结识了艺术、文学专业的朋友，他们一起尝试将编程思维融入音乐创作，用算法生成旋律，用尤克里里演绎科技与艺术的碰撞。“这里没有‘专业壁垒’，只有对音乐的共同热爱。”阿杰感慨道。如今，他不仅在社团中找到了平衡生活的支点，更计划将音乐元素融入未来的科技项目，让技术更有温度。<br>
+
+        三、 社长的“传承使命”：林悦与她的“音乐接力棒”<br>
+        作为社团第三任社长，林悦的尤克里里里藏着一段特殊的记忆。大一时，她因家庭变故陷入低谷，是社团的学长学姐用音乐带她走出阴霾。“他们教我弹《明天，你好》，告诉我‘音乐是黑暗里的光’。”这份温暖，让林悦在成为社长后，决心将“传递快乐”作为社团的核心使命。<br>
+
+        她发起“音乐种子计划”，带领社员走进社区、养老院，用尤克里里为孤寡老人和留守儿童带去欢笑；她策划“跨校音乐节”，联合其他高校的尤克里里社团，让更多人感受四弦的魅力；她甚至为社团编写了《尤克里里入门手册》，将学习经验系统化，让新成员少走弯路。“音乐不是独奏，而是合唱。”林悦常说，“我希望每个加入社团的人，都能成为照亮他人的光。”<br>
+
+        四、 加入我们，书写你的故事！<br>
+        这些故事，只是尤克里里社团万千篇章中的几页。在这里，有人通过音乐找到了自信，有人用琴声治愈了心灵，有人将热爱变成了责任……而每一个故事的核心，都是“热爱”与“成长”的交织。<br>
+
+        如果你也：<br>
+
+        渴望用音乐表达自我，却苦于没有平台；<br>
+        希望结交志同道合的朋友，共同探索音乐的无限可能；<br>
+        想在忙碌的学习中，找到一片放松身心的净土；<br>
+        甚至只是单纯喜欢尤克里里那清脆悦耳的音色……<br>
+        那么，尤克里里社团欢迎你！无论你是零基础的新手，还是已有经验的“老手”，这里都有你的位置。我们将提供：<br>
+
+        系统教学：从持琴姿势到复杂指法，一步步带你入门；<br>
+        丰富活动：音乐会、快闪、工作坊，让你的才华有舞台绽放；<br>
+        温暖社群：一群陪你练习、陪你成长、陪你欢笑的伙伴；<br>
+        无限可能：创作、改编、跨界合作，让音乐成为你生活的调色盘。<br>
+        以琴为舟，驶向星辰大海；以音为伴，共赴热爱之约。<br>
+        尤克里里社团，期待与你一起，书写属于你的音乐故事！</p>
+    <a href="#main" class="back-to-top">返回顶部</a>
+</div>
+
+<hr style="border: 0; height: 1px; background: #eee; margin: 50px 0;">
+
+<!-- 8. 在线报名（表单，参考ex3_30.html） -->
+<div id="apply" name="apply" style="width: 80%; margin: 0 auto; line-height: 1.8;">
+    <h2>尤克里里社在线报名表</h2>
+    <form action="" method="post">
+        <table class="form-table" width="80%" align="center">
+            <tr>
+                <td width="20%">姓名</td>
+                <td><input type="text" name="xm" size="12" required></td>
+            </tr>
+            <tr>
+                <td>性别</td>
+                <td>
+                    <input type="radio" name="性别" value="男" checked>男
+                    <input type="radio" name="性别" value="女" style="margin-left: 20px;">女
+                </td>
+            </tr>
+            <tr>
+                <td>出生日期</td>
+                <td>
+                    <input type="text" name="year" size="2" placeholder="年" required>
+                    <input type="text" name="month" size="2" placeholder="月" required>
+                    <input type="text" name="day" size="2" placeholder="日" required>
+                </td>
+            </tr>
+            <tr>
+                <td>手机/邮箱</td>
+                <td>
+                    <input type="text" name="phone" size="20" required>
+                    <input type="text" name="email" size="30" required style="margin-left: 20px;">
+                </td>
+            </tr>
+            <tr>
+                <td>是否有尤克里里基础</td>
+                <td>
+                    <input type="radio" name="basis" value="有" required>有
+                    <input type="radio" name="basis" value="无" style="margin-left: 20px;">无
+                </td>
+            </tr>
+            <tr>
+                <td>兴趣方向（可多选）</td>
+                <td>
+                    <input type="checkbox" name="爱好" value="弹唱">弹唱
+                    <input type="checkbox" name="爱好" value="指弹" style="margin-left: 20px;">指弹
+                    <input type="checkbox" name="爱好" value="公益演出" style="margin-left: 20px;">公益演出
+                    <input type="checkbox" name="爱好" value="曲目改编" style="margin-left: 20px;">曲目改编
+                </td>
+            </tr>
+            <tr>
+                <td>年级</td>
+                <td>
+                    <select name="grade" size="1" required>
+                        <option value="">请选择年级</option>
+                        <option value="大一">大一</option>
+                        <option value="大二">大二</option>
+                        <option value="大三">大三</option>
+                        <option value="大四">大四</option>
+                        <option value="研究生">研究生</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>自我介绍</td>
+                <td>
+                    <textarea name="intro" rows="5" cols="60" required placeholder="请介绍自己及加入理由"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%">是否服从活动安排</td>
+                <td>
+                    <input type="radio" name="obey" value="是" required>是
+                    <input type="radio" name="obey" value="否" style="margin-left:20px;">否
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center; padding: 20px 0;">
+                    <input type="submit" value="提交报名">
+                    <input type="reset" value="重置表单" style="margin-left: 20px;">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <a href="#main" class="back-to-top">返回顶部</a>
+</div>
+
+<!-- 顶部锚点（参考ex3_12.html） -->
+<div id="main" name="main" style="position: absolute; top: 0;"></div>
+</body>
+</html>
